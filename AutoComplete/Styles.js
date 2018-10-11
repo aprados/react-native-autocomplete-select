@@ -14,8 +14,13 @@ const Styles = StyleSheet.create({
   suggestionText: {
     fontSize: 15
   },
-  input: {
-    fontSize: 15
+  inputText: {
+    fontSize: 14,
+    lineHeight: 43,
+    color: '#110A24',
+    fontFamily: 'Roboto-Medium',
+    textAlign: 'right', 
+    flex: 1
   },
   wrapper: {
     flex: 1

@@ -19,7 +19,14 @@ const Styles = StyleSheet.create({
   },
   wrapper: {
     flex: 1
-  }
+  },
+  labelText: {
+    fontSize: 14,
+    lineHeight: 22,
+    marginRight: 5,
+    color: '#727A8F',
+    fontFamily: 'Roboto-Regular',
+  },
 })
 
 export default Styles

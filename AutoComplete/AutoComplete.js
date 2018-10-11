@@ -106,11 +106,11 @@ class AutoComplete extends Component {
     return (
       <View style={this.props.style || Styles.wrapper}>
       
-        {props.label ? <Text style={[styles.labelText, props.labelStyle]}>{props.label}</Text> : null}
+        {this.props.label ? <Text style={[styles.labelText, props.labelStyle]}>{this.props.label}</Text> : null}
         <TextInput
           {...this.props}
           onChangeText={this.onChangeText}
-          style={this.props.inputStyle || Styles.input}
+          style={[Styles.inputText, props.inputStyle]}
         />
 
         {this.renderSuggestions()}
